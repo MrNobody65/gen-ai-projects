@@ -11,7 +11,7 @@ import os
 ## Function to load OpenAI model and get responses
 
 def get_openai_response(question):
-    llm = OpenAI(openai_api_key=os.getenv("OPEN_API_KEY"), model_name="davinci-002", temperature=0.5)
+    llm = OpenAI(openai_api_key=os.getenv("OPENAI_API_KEY"), model_name="davinci-002", temperature=0.5)
     response = llm(question)
     return response
 

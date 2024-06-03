@@ -4,6 +4,8 @@ pinecone-client
 pypdf
 openai
 langchain
+langchain-community
+langchain_pinecone
 pandas 
 numpy
 python-dotenv
